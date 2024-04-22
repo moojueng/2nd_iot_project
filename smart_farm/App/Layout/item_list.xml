@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView_list_date"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+
+
+    <TextView
+        android:id="@+id/textView_list_cds"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+
+
+    <TextView
+        android:id="@+id/textView_list_soil"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/textView_list_tem"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/textView_list_hum"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/textView_list_war"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:padding="5dp" />
+
+
+
+</LinearLayout>
